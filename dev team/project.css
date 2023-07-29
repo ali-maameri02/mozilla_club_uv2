@@ -1,0 +1,334 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("mosssssilllaaa2223.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% -3.5%;
+}
+/* audiowide-regular - latin */
+@font-face {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/audiowide-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/audiowide-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/audiowide-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/audiowide-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/audiowide-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/audiowide-v16-latin-regular.svg#Audiowide') format('svg'); /* Legacy iOS */
+}
+*{
+    font-family: Audiowide,sans-serif font !important;
+    font-style: italic;
+}
+header{
+    background-image: url("all_In_On.png");
+    background-position: 15% 25%;
+    height:70px;
+    background-size:13%;
+    background-repeat: no-repeat;
+    background-color: #63616C;
+    position: relative;
+
+}
+header #project{
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    bottom:25%;
+    text-shadow: 2px 2px 2px #423E3A ;
+}
+#team{
+    position: absolute;
+    color: #fff;
+    left: 55%;
+    top: 30%;
+    text-shadow: 2px 2px 2px #423E3A ;
+}
+nav{
+    float: right;
+    width: 100%;
+    margin-top: -15px;
+    
+}
+.mozlogo{
+    margin:18px;
+    animation-name: rotation;
+    animation-duration:5s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+
+
+nav button{
+    position: absolute;
+    left: 10%;
+    top:15%;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 15px;
+    border:0.5px solid #63616C;
+    box-shadow: 0px 3px 3px #423E3A;
+    background-color: #63616C;
+    color: #fff;
+}
+button:hover{
+    background-color: #E0A672;
+}
+nav ul{
+    width: 70%;
+    float: right;
+    padding: 8px;
+    background: linear-gradient(110deg,#63616ccc,#63616cb8,#63616c8e);
+}
+nav ul a{
+    display: inline-block;
+    margin: 0 50px 0 50px;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+    color:black;
+}
+
+
+nav ul  li{
+list-style-type: none;
+display: inline;
+padding-bottom: 8px;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #E0A672;
+}
+
+nav ul li i{
+    color: black;
+}
+.sub-menu ul{
+    width:17%;
+    position: absolute;
+    left:48%;
+    top:18%;
+    background-color:#63616C;
+    text-align: center;
+    opacity: 0;
+    border-radius: 10px;
+}
+ul li ul li {
+    display: none;
+}
+ul li ul{
+    opacity: 1;
+}
+ul li:hover ul{
+    opacity: 1;
+}
+
+ul li:hover ul li {
+    display: block;
+    overflow: visible;
+    transition: max-height 0.5s ease-in;
+    opacity: 1;
+}
+
+.sub-menu ul li{
+    
+    border: 0;
+    border-radius: 10px;
+}
+.sub-menu ul li:hover{
+    border: none;
+    background-color: #E0A672;
+}
+.sub-menu ul li >a{
+    border: none;
+}
+.sign-up-page{
+    position: absolute;
+    background-color: #fff;
+    width: 40%;
+    left: 30%;
+    top:22%;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 300px;
+    box-shadow: 0px 1px 4px 7px black;
+    display: none;
+}
+.sign-up-page i{
+    position:absolute; 
+    right:1.5%;
+    top:1%;
+    background-color: #E0A672;
+    width: 5%;
+    border-radius:7px;
+    color: #fff;
+}
+.sign-up-page i:hover{
+    background-color: #e0a57200;
+    border: 1px solid #E0A672;
+    color:#423E3A;
+}
+.sign-up-page form{
+    width: 80%;
+}
+
+.sign-up-page form input{
+    margin-bottom:5%;
+}
+.welcom{
+    background-color: #E0A672;
+    background-image: url("mosssssilllaaa222.png");
+    background-size: 50%;
+    background-attachment: fixed;
+    margin-top:18%;
+}
+.page7 a{
+    display: block;
+    position: absolute;
+    top:790%;
+    left:45%;
+    text-decoration: none;
+    color: #fff;
+
+}
+.page7 a:hover{
+    color:#E0A672;
+}
+#adresse{
+    top:785%
+}
+div{
+    margin-bottom: 5%;
+    padding: 5%;
+    background-image: url("mosssssilllaaa222.png");
+    background-size: 50%;
+    background-attachment: fixed;
+
+}
+
+div img{
+   width: 80%; 
+   margin-left: 10%;
+   height:500px;
+   border-radius:25px;
+   opacity: 0.95;
+   box-shadow: 0px 1px 4px 10px;
+}
+
+
+footer{
+    background: linear-gradient(110deg,#423E3A,#423e3ab8,#423e3a45);
+    height: 350px;
+    
+}
+footer .social-media{
+    float: right;
+    width:35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(110deg,#423e3a00,#423e3ab8,#423e3a93,#423e3aa0);
+}
+.social-media i{
+    margin: 0 30px 0 30px;
+    padding: 10px 12px 10px 12px;
+    
+    font-size: larger;
+    border-radius: 10px;
+}
+#fb:hover{
+    background-color: rgb(0, 170, 255);
+    color:#fff
+}
+#insta:hover{
+    background: linear-gradient(125deg,rgb(225, 35, 35),rgba(255, 106, 0, 0.879),rgba(255, 123, 0, 0.662));
+    color: #fff;
+}
+#mail:hover{
+    background-color: rgb(224, 224, 54);
+    color:#fff
+}
+#map:hover{
+     background-color: rgba(244, 35, 35, 0.826);
+     color:#fff
+}
+.social-links{
+    float: right;
+    margin-top: 5%;
+    margin-right: -15%;
+    width: 15%;
+    height: fit-content;
+    text-align: center;
+}
+.social-links li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight:500;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer li a:hover{
+    background-color: #E0A672;
+}
+.Teams{
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    width: 18%;
+    height: fit-content;
+    text-align: center;
+}
+footer li{
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+footer li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer li a:hover{
+    background-color: #423E3A;
+}
+.Events{
+    position: relative;
+    top:25%;
+    left:10%;
+    width:15%;
+}
+
+hr{
+    position: relative;
+    top:0%;
+    left: 0%;
+    padding-right:90%;
+    
+}
+.small1{
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+small{
+    position: relative;
+    top:2%;
+    left: 35%;
+
+}
+@keyframes rotation {
+    from{
+        transform: rotateY(0)
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="mozlogo.png" type="image/png">
+    <title>Mozilla campus club-Costantine</title>
+</head>
+<body>
+  <header>
+      <form method="get" id="log-in-form">
+          <label for="user">User Name</label>
+       <input type="text" name="text" id="user" placeholder="Your Full Name..." autocomplete="off">
+      <label for="password">User-password</label>
+      <input type="password" id="password" autocomplete="off" >
+      <input type="submit" id="submite" value="Connect">
+      </form>
+  </header>
+  
+ <nav>
+     
+     <button id="join">Join-Us</button><img src="mozlogo.png" width="40px" class="mozlogo">
+
+     <ul>
+        <a href="home.html"><li><i class="fa fa-home"></i> Home</li></a>
+        <a href="#"> <li class="sub-menu"><i class="fa fa-group"></i> Our-Teams</a>
+        <ul >
+            <li><a href="Mcc leader.html">The Leader</a></li>
+            <li><a href="Devloping Team.html">Devloping Team</a></li>
+            <li><a href="Marketing Team.html">Marketing Team </a></li>
+            <li><a href="External Relations Team.html">External Relations Team</a></li>
+            <li><a href="Mentoring Team.html">Mentoring Team</a></li>
+            <li><a href="Education Team.html">Education Team</a></li>
+        </ul>
+        </li>
+        <a href="#"> <li><i class="fa fa-calendar"></i> Events</li></a>
+        <a href="contact-us.html"> <li><i class="fa fa-address-book"></i> Contact-Us</li></a>
+     </ul>
+ </nav>
+ <div>
+     <div class="sign-up-page" id="sign">
+         <i class="fa fa-close" id="close"></i>
+         <h4>Hello You Want To Be A Mozillien Member!& Devlop Your Self With Our Club,So You Are In The Good Place,Join Networking Team Now</h4>
+         <form method="get" id="sign-form">
+             <label for="name">Full-Name</label>
+             <input type="text" name="text" id="txt" minlength="3" maxlength="40" placeholder="... your name " autocomplete="off">
+             <br>
+             <label for="name">Field</label>
+             <input type="text" name="text" id="txt1" minlength="3" maxlength="100" placeholder="for ex:computer science" autocomplete="off">
+             <br>
+             <label for="name">Email</label>
+             <input type="email" name="text" id="txt2" placeholder="example@gmail.com">
+             <input type="submit" name="text" id="ok" value="Send" >
+         </form>
+     </div>
+ <div class="about-us">
+    <article class="content">
+     <h2>About-Us</h2>
+         <p>
+            <mark> A non-political, student-oriented scientific club in Abdelhamid
+            Mehri University (Constantine2)</mark>that represents Mozilla and
+            works for its purpose to make the Web accessible for everyone
+            no matter what background he has, in addition, this club works
+            to make technologies more open to people by supporting open
+            source projects. We have a highly collaborative environment
+            where all members share their skills and knowledge through
+            events, conferences and small projects that focus on society
+            and students from other fields.
+            Mozilla Culture & Rul
+         </p>
+    </article>
+    <section class="goals">
+        <ul>
+            <li><img width="50px" style="padding-top: 18px;" src="data:image/png;base64,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"> <br>Open Source</li>
+
+            <li><img width="50px" style="padding-top: 19px;" src="data:image/png;base64,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"><br>Vouluntary</li>
+
+            <li><i class="fa fa-trophy" style="font-size: 60px; padding-top:12px; color:#E0A672;"></i><br>Challenge</li>
+
+            <li style="width:18%; padding-top: 19px; height: 80px;">
+             <img width="50px"  src="data:image/png;base64,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">
+
+                
+                <br>   Information Technologi</li>
+            
+        </ul>
+    </section>
+ </div>
+ </div>
+ <div class="moz-content">
+    <h2>Who is Mozilla Firefox?</h2>
+    <p>Firefox, in full Mozilla Firefox, free open-source Web browser created by the American software company Mozilla Corporation. 
+        In 1998 the American Internet services company Netscape Communications Corp. decided to designate its Navigator browser as open-source for users, 
+        who began the development of Mozilla Firefox.
+        <br>
+      <a href="https://www.mozilla.org/fr/firefox/new/"> <button>see more</button></a>
+    </p>
+</div>
+
+<footer>
+    <section class="social-media">
+        <a href="https://web.facebook.com/MCCUV2/"><i class="fa fa-facebook" id="fb"></i></a>
+        <a href="https://www.instagram.com/mozillacc.cuv2/"><i class="fa fa-instagram" id="insta" aria-hidden="true"></i></a>
+        <a href="mailto:mcc.univ@gmail.com"><i class="fa fa-envelope-o" id="mail" aria-hidden="true"></i></a>
+        <a href="https://www.google.com/maps/place/Constantine+2+University/@36.248541,6.540652,15z/data=!4m5!3m4!1s0x0:0xa80cc72a9da3c77b!8m2!3d36.2460493!4d6.5700063?hl=en"><i class="	fa fa-map-marker" id="map"></i></a>
+    </section>
+    <section class="social-links">
+        <ul>
+            <h3>Social</h3>
+            <li><a href="https://web.facebook.com/MCCUV2/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/mozillacc.cuv2/">Instgram</a></li>
+            <li><a href="mailto:mcc.univ@gmail.com">Gmail</a></li>
+            <li><a href="https://www.google.com/maps/place/Constantine+2+University/@36.248541,6.540652,15z/data=!4m5!3m4!1s0x0:0xa80cc72a9da3c77b!8m2!3d36.2460493!4d6.5700063?hl=en">Map</a></li>
+        </ul>
+    </section>
+    <section class="Teams">
+        <ul>
+        <h3>Our Teams</h3>
+        <li><a href="Devloping Team.html">Devloping Team</a></li>
+        <li><a href="Marketing Team.html">Marketing Team </a></li>
+        <li><a href="External Relations Team.html">External Relations Team</a></li>
+        <li><a href="Marketing Team.html">Mentoring Team</a></li>
+        <li><a href="Education Team.html">Education Team</a></li>
+    </ul>
+ </section>
+    <section class="Events">
+     <ul>
+        <li><a href="#">Events</a></li>
+    </ul>
+</section>
+<hr>
+<small class="small1">Copyright<i class="fa fa-copyright"></i>2022 Mcc All Right Saved</small>
+<small>Created By:Mr.Ali Maameri</small>
+</footer>
+<script src="log.js"></script>
+</body>
+</html>

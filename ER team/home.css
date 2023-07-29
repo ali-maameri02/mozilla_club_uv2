@@ -1,0 +1,388 @@
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+/* audiowide-regular - latin */
+@font-face {
+  font-family: 'Audiowide';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/audiowide-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/audiowide-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/audiowide-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/audiowide-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/audiowide-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/audiowide-v16-latin-regular.svg#Audiowide') format('svg'); /* Legacy iOS */
+}
+*{
+    font-family: Audiowide,sans-serif font !important;
+    font-style: italic;
+}
+header{
+    background-image: url("all_In_On.png");
+    background-position: 15% 25%;
+    height:70px;
+    background-size:13%;
+    background-repeat: no-repeat;
+    background-color: #63616C;
+}
+#log-in-form{
+    float: right;
+    margin-top:2%;
+    font-weight: bold;
+    font-style: italic;
+    color: #E0A672;
+    margin-right: 15%;
+}
+input{
+    border: 0.5px solid #63616C;
+    border-radius:15px;
+    padding: 3px;
+}
+#submite{
+   font-weight: bold;
+   box-shadow: none;
+   background-color: #fff;
+}
+#submite:hover{
+ background-color: #E0A672;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0px 3px 3px  ;
+}
+nav{
+    float: right;
+    width: 100%;
+    margin-top: -15px;
+    
+}
+.mozlogo{
+    margin:18px;
+    animation-name: rotation;
+    animation-duration:5s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+}
+nav button{
+    position: absolute;
+    left: 10%;
+    top:12%;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 15px;
+    border:0.5px solid #63616C;
+    box-shadow: 0px 3px 3px #423E3A;
+    background-color: #63616C;
+    color: #fff;
+}
+button:hover{
+    background-color: #E0A672;
+}
+nav ul{
+    width: 70%;
+    float: right;
+    padding: 8px;
+    background: linear-gradient(110deg,#63616ccc,#63616cb8,#63616c8e);
+}
+nav ul a{
+    display: inline-block;
+    margin: 0 50px 0 50px;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+    color:black;
+}
+
+
+nav ul  li{
+list-style-type: none;
+display: inline;
+padding-bottom: 8px;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid #E0A672;
+}
+
+nav ul li i{
+    color: black;
+}
+.sub-menu ul{
+    width:17%;
+    position: absolute;
+    left:48%;
+    top:18%;
+    background-color:#63616C;
+    text-align: center;
+    opacity: 0;
+    border-radius: 10px;
+}
+ul li ul li {
+    display: none;
+}
+ul li ul{
+    opacity: 1;
+}
+ul li:hover ul{
+    opacity: 1;
+}
+
+ul li:hover ul li {
+    display: block;
+    overflow: visible;
+    transition: max-height 0.5s ease-in;
+    opacity: 1;
+}
+
+.sub-menu ul li{
+    
+    border: 0;
+    border-radius: 10px;
+}
+.sub-menu ul li:hover{
+    border: none;
+    background-color: #E0A672;
+}
+.sub-menu ul li >a{
+    border: none;
+}
+.sign-up-page{
+    position: absolute;
+    background-color: #fff;
+    width: 40%;
+    left: 30%;
+    top:22%;
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 300px;
+    box-shadow: 0px 1px 4px 7px black;
+    display: none;
+}
+.sign-up-page i{
+    position:absolute; 
+    right:1.5%;
+    top:1%;
+    background-color: #E0A672;
+    width: 5%;
+    border-radius:7px;
+    color: #fff;
+}
+.sign-up-page i:hover{
+    background-color: #e0a57200;
+    border: 1px solid #E0A672;
+    color:#423E3A;
+}
+.sign-up-page form{
+    width: 80%;
+}
+
+.sign-up-page form input{
+    margin-bottom:5%;
+}
+.about-us{
+    text-align: center;
+    background-image: url("mosssssilllaaa2223.png");
+    background-size:cover;
+    background-position:50% 17%;
+    background-repeat:repeat;
+    background-color: #423E3A;
+    margin-top: 3.2%;
+    padding-top: 3%;
+    padding-bottom:15%;
+    height:200px;
+}
+.content{
+   
+    width: 70%;
+    margin-left: 15%;
+    margin-top:-2%;
+    border-radius:20px;
+   
+    box-shadow: 3px 2px 5px 6px #423E3A;
+    color: #E0A672;
+}
+.content p{
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+}
+mark{
+    background-color: #E0A672;
+}
+.goals{
+   /* background:linear-gradient(110deg,rgba(255, 255, 255, 0.522),rgba(255, 255, 255, 0.729),#fff);*/
+   background-color: #fff;
+    width:75%;
+    margin-left: 12.5%;
+    position: absolute;
+    border-radius: 15px;
+    top:82%;
+    height: 100px;
+    box-shadow: 0px 1px 4px 2px;
+}
+.goals ul li{
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border: 1px solid #63616C;
+    border-bottom: 0;
+    border-top: 0;
+    margin: -15px 15px -19px 15px;
+    color: #423E3A ;
+    font-weight: bold;
+}
+
+.moz-content{
+    margin-top:3%;
+    text-align: center;
+    background-image: url("mozilla\ firefox.jpeg");
+    background-attachment: fixed;
+    background-size: 90%;
+    background-position: -100% 5%;
+    padding-top: 5%;
+    height:450px;
+    color: #000;
+}
+.moz-content h2{
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    text-shadow:2px 3px 5px  #000;
+}
+.moz-content p{
+    width: 30%;
+    float: right;
+    margin-top:5%;
+    margin-right: -25%;
+    font-weight: bold;
+}
+.moz-content button{
+    
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0px 3px 3px #423E3A;
+    background-color: #fff;
+    border:1px solid #63616C;
+    margin-top: 15px;
+}
+.moz-content button:hover{
+    background-color: #f0a15c;
+}
+footer{
+    background: linear-gradient(110deg,#423E3A,#423e3ab8,#423e3a45);
+    height: 350px;
+    
+}
+footer .social-media{
+    float: right;
+    width:35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(110deg,#423e3a00,#423e3ab8,#423e3a93,#423e3aa0);
+}
+.social-media i{
+    margin: 0 30px 0 30px;
+    padding: 10px 12px 10px 12px;
+    
+    font-size: larger;
+    border-radius: 10px;
+}
+#fb:hover{
+    background-color: rgb(0, 170, 255);
+    color:#fff
+}
+#insta:hover{
+    background: linear-gradient(125deg,rgb(225, 35, 35),rgba(255, 106, 0, 0.879),rgba(255, 123, 0, 0.662));
+    color: #fff;
+}
+#mail:hover{
+    background-color: rgb(224, 224, 54);
+    color:#fff
+}
+#map:hover{
+     background-color: rgba(244, 35, 35, 0.826);
+     color:#fff
+}
+.social-links{
+    float: right;
+    margin-top: 5%;
+    margin-right: -15%;
+    width: 15%;
+    height: fit-content;
+    text-align: center;
+}
+.social-links li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight:500;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer li a:hover{
+    background-color: #E0A672;
+}
+.Teams{
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+    width: 18%;
+    height: fit-content;
+    text-align: center;
+}
+footer li{
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+footer li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer li a:hover{
+    background-color: #423E3A;
+}
+.Events{
+    position: relative;
+    top:25%;
+    left:10%;
+    width:15%;
+}
+
+hr{
+    position: relative;
+    top:0%;
+    left: 0%;
+    padding-right:90%;
+    
+}
+.small1{
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+small{
+    position: relative;
+    top:2%;
+    left: 35%;
+
+}
+@keyframes rotation {
+    from{
+        transform: rotateY(0)
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
